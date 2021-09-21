@@ -69,6 +69,7 @@ public class Main
 	        else {
 	            temp.next=temp2.next;
 	            temp=temp.next;
+	            temp2=temp.next;
 	            dup.next=temp;
 	            
 	        }
